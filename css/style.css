@@ -1,0 +1,29 @@
+/* General rules */
+
+* {
+    font-family: sans-serif;
+}
+
+p, h1, h3 {
+    color: white;
+}
+
+/* Groups */
+
+/* IDs */
+
+#about {
+    background-color: rgb(13, 70, 18);
+}
+
+#contact {
+    background-color: rgb(2, 38, 15);
+}
+
+.lank {
+    color: rgb(127, 47, 47);
+}
+
+.adress {
+    color: white;
+}
