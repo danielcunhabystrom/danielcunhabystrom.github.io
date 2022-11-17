@@ -1,6 +1,6 @@
 :root {
-    --main-bg-color: #DAD7CD;
-    --sec-bg-color: #A3B18A;
+    --main-bg-color: #b4b4b4;
+    --sec-bg-color: #797979;
     --third-bg-color: #344E41;
 }
 
@@ -228,13 +228,12 @@ nav .fa-solid {
     font-size: 1rem;
     font-weight: 400;
     margin-left: 1rem;
-    color: #344E41;
+    color: var(--third-bg-color);
 }
 
 .col-2-row-col-2 ul li {
     padding: 0.5rem 0.5rem;
     font-weight: 400;
-    display: inline-block;
 }
 
 .col-2-row-col-2 ul li p {
@@ -270,18 +269,39 @@ nav .fa-solid {
     .header .container {
         flex-direction: row;
     }
+
     .col-2-row {
         flex-direction: column;
     }
 
     .col-2-row-col-1 {
-        flex-basis: 95%;
         text-align: center;
     }
-    
+
+    .col-2-row-col-1 ul {
+        text-align: left;
+        margin: auto;
+        display: table;
+    }
+
     .col-2-row-col-2 {
-        flex-basis: 95%;
         text-align: center;
+    }
+
+    .col-2-row-col-2 ul {
+        text-align: left;
+        margin: auto;
+        display: table;
+    }
+
+    .about h3 {
+        text-align: center;
+        padding: 1rem 0rem;
+    }
+
+    .about h2 {
+        text-align: center;
+        padding: 1rem 0rem;
     }
 }
 
@@ -292,7 +312,6 @@ nav .fa-solid {
     background-color: var(--sec-bg-color);
     text-align: center;
     padding: 3.25rem 0;
-    height: 30rem;
 }
 
 .research .col-2 {
@@ -320,11 +339,9 @@ nav .fa-solid {
     background-color: var(--main-bg-color);
     text-align: center;
     padding: 3.25rem 0;
-    height: 30rem;
 }
 
 .experience .col-2 {
-    flex-basis: 60%;
     text-align: center;
     padding: 1.25rem 1rem;
 }
@@ -338,10 +355,16 @@ nav .fa-solid {
 .experience ul li{
     font-size: 1rem;
     text-align: left;
+    display: flex;
 }
 
 .experience p {
     color: var(--third-bg-color);
+}
+
+.fa-briefcase {
+    color: var(--third-bg-color);
+    padding-right: 1rem;
 }
 
 /* ------- Footer -----------------*/
