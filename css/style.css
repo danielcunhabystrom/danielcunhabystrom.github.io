@@ -1,14 +1,15 @@
 :root {
-    --main-bg-color: #b4b4b4;
-    --sec-bg-color: #797979;
-    --third-bg-color: #344E41;
+    --main-bg-color: #27352b;
+    --sec-bg-color: #232f29;
+    --third-bg-color: #40460e;
+    --text-color: #f8f8f2;
 }
 
 * {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
-    color: #FAF5E9;
+    color: var(--text-color);
     box-sizing: border-box;
 }
 
@@ -34,7 +35,7 @@ h2 {
 }
 
 .col-2 {
-    flex-basis: 65%;
+    flex-basis: 60%;
     padding-top: 1.25rem;
 }
 
@@ -45,6 +46,7 @@ h2 {
     justify-content: space-between;
 }
 
+
 .col-2-row-col-1 {
     flex-basis: 35%;
     text-align: left;
@@ -52,7 +54,6 @@ h2 {
 
 .col-2-row-col-2 {
     flex-basis: 65%;
-    text-align: left;
 }
 
 /* ------- Navbar ------- */
@@ -180,7 +181,6 @@ nav .fa-solid {
 .about a {
     text-decoration: none;
     width: 100%;
-    color: var(--third-bg-color);
     font-weight: 600;
 }
 
@@ -209,7 +209,6 @@ nav .fa-solid {
     font-weight: 400;
     line-height: 1.5rem;
     padding: 1.5rem 0;
-    color: #344E41;
     text-align: justify;
 }
 
@@ -219,8 +218,8 @@ nav .fa-solid {
     box-shadow: 0 0 1.25rem 0 rgba(255, 255, 255, 0.3);
 }
 
-.about .col-2 {
-    flex-basis: 60%;
+.col-2-row-col-2 {
+    margin: auto;
 }
 
 .col-2-row-col-1 ul li {
@@ -228,7 +227,6 @@ nav .fa-solid {
     font-size: 1rem;
     font-weight: 400;
     margin-left: 1rem;
-    color: var(--third-bg-color);
 }
 
 .col-2-row-col-2 ul li {
@@ -248,16 +246,11 @@ nav .fa-solid {
     font-size: 1.5rem;
 }
 
-.fa-li {
-    color: #344E41;
-}
-
 #degree {
     font-weight: 600;
 }
 
 #uni {
-    color: #344E41;
     font-size: 1rem;
 }
 
@@ -358,12 +351,7 @@ nav .fa-solid {
     display: flex;
 }
 
-.experience p {
-    color: var(--third-bg-color);
-}
-
 .fa-briefcase {
-    color: var(--third-bg-color);
     padding-right: 1rem;
 }
 
@@ -394,7 +382,6 @@ nav .fa-solid {
 
 .footer a {
     text-decoration: none;
-    color: var(--third-bg-color);
 }
 
 .footer a:hover {
@@ -402,13 +389,11 @@ nav .fa-solid {
 }
 
 .footer .fa-sharp {
-    color: var(--third-bg-color);
     margin-right: 0.625rem;
     text-align: center;
 }
 
 .footer .fa-location-dot {
-    color: var(--third-bg-color);
     margin-right: 0.625rem;
     text-align: center;
     padding: 0 0.2rem;
