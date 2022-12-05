@@ -1,7 +1,7 @@
 :root {
-    --main-bg-color: #27352b;
-    --sec-bg-color: #232f29;
-    --third-bg-color: #40460e;
+    --main-bg-color: #18211b;
+    --sec-bg-color: #131a16;
+    --third-bg-color: #0e5139;
     --text-color: #f8f8f2;
 }
 
@@ -62,7 +62,7 @@ h2 {
     width: 100%;
     background-color: var(--third-bg-color);
     position: fixed;
-    box-shadow: 0 0 1.25rem 0px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 1.25rem 0px rgba(22, 143, 64, 0.152);
     z-index: 1000;
 }
 
@@ -182,6 +182,8 @@ nav .fa-solid {
     text-decoration: none;
     width: 100%;
     font-weight: 600;
+    color: var(--third-bg-color);
+    font-size: 1.25rem;
 }
 
 .about a:hover {
@@ -353,6 +355,7 @@ nav .fa-solid {
 
 .fa-briefcase {
     padding-right: 1rem;
+    color: var(--third-bg-color);
 }
 
 /* ------- Footer -----------------*/
@@ -382,6 +385,7 @@ nav .fa-solid {
 
 .footer a {
     text-decoration: none;
+    color: var(--third-bg-color);
 }
 
 .footer a:hover {
@@ -391,12 +395,14 @@ nav .fa-solid {
 .footer .fa-sharp {
     margin-right: 0.625rem;
     text-align: center;
+    color: var(--third-bg-color);
 }
 
 .footer .fa-location-dot {
     margin-right: 0.625rem;
     text-align: center;
     padding: 0 0.2rem;
+    color: var(--third-bg-color);
 }
 
 @media(max-width: 75em){
