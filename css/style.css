@@ -79,6 +79,11 @@ html {
     color: var(--main-bg-color);
 }
 
+.header-name {
+    flex-basis: 35%;
+    text-align: center;
+}
+
 nav {
     display: flex;
     padding: 1rem 0rem;
@@ -86,14 +91,10 @@ nav {
     align-items: center;
 }
 
-.header-name {
-    flex: 35%;
-    text-align: center;
-}
 
 .nav-links {
-    display: flex;
-    transition: 0.3s;
+    flex: 61%;
+    text-align: right;
 }
 
 .nav-links ul li {
@@ -141,9 +142,13 @@ nav .fa-solid {
     }
 
     .nav-links {
-        flex: 1 1 auto;
-        position: relative;
-        justify-content: center;
+        position: absolute;
+        background: var(--third-bg-color);
+        width: 9rem;
+        top: -20rem;
+        right: 0;
+        text-align: left;
+        transition: 0.7s;
     }
 
     .nav-links > li {
