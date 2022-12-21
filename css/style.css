@@ -1,15 +1,14 @@
 :root {
-    --main-bg-color: #151d17;
-    --sec-bg-color: #131a16;
-    --third-bg-color: #df8115;
-    --text-color: #f8f8f2;
+    --main-bg-color: #fffafa;
+    --sec-bg-color: #fffafa;
+    --third-bg-color: #00563f;
+    --text-color: #252525;
 }
 
 * {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
-    color: var(--text-color);
     box-sizing: border-box;
 }
 
@@ -17,10 +16,14 @@ h2 {
     font-size: 3rem;
     font-weight: 600;
     text-align: center;
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--text-color);
 }
 
 /* ------ Layout ------ */
+
+html {
+    scroll-behavior: smooth;
+}
 
 .container {
     width: 60%;
@@ -48,12 +51,12 @@ h2 {
 
 
 .col-2-row-col-1 {
-    flex-basis: 35%;
+    flex-basis: 40%;
     text-align: left;
 }
 
 .col-2-row-col-2 {
-    flex-basis: 65%;
+    flex-basis: 60%;
 }
 
 /* ------- Navbar ------- */
@@ -63,7 +66,9 @@ h2 {
     background-color: var(--third-bg-color);
     position: fixed;
     box-shadow: 0 0 1.25rem 0px rgba(22, 143, 64, 0.152);
-    z-index: 1000;
+    z-index: 10;
+    align-items: center;
+    justify-content: space-between;    
 }
 
 .header a {
@@ -71,6 +76,7 @@ h2 {
     font-size: 1.5rem;
     font-weight: 600;
     height: 100%;
+    color: var(--main-bg-color);
 }
 
 nav {
@@ -86,8 +92,8 @@ nav {
 }
 
 .nav-links {
-    flex: 61%;
-    text-align: right;
+    display: flex;
+    transition: 0.3s;
 }
 
 .nav-links ul li {
@@ -135,13 +141,18 @@ nav .fa-solid {
     }
 
     .nav-links {
-        position: absolute;
-        background: var(--third-bg-color);
-        width: 9rem;
-        top: 0;
-        right: -12.5rem;
-        text-align: left;
-        transition: 0.7s;
+        flex: 1 1 auto;
+        position: relative;
+        justify-content: center;
+    }
+
+    .nav-links > li {
+        position: relative;
+        flex: 0 0 36px;
+        display: grid;
+        place-items: center;
+        width: 2.25rem;
+        opacity: 0.3;
     }
 
     nav .fa{
@@ -176,6 +187,7 @@ nav .fa-solid {
     padding-top: 6.25rem;
     padding-bottom: 2.5rem;
     background-color: var(--main-bg-color);
+    color: var(--text-color);
 }
 
 .about a {
@@ -193,7 +205,7 @@ nav .fa-solid {
 .about h1 {
     text-align: center;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--text-color);
     font-size: 1.5rem;
     padding-top: 0.8rem;
     padding-bottom: 0.5rem;
@@ -203,7 +215,7 @@ nav .fa-solid {
     font-size: 2.5rem;
     font-weight: 600;
     text-align: left;
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--text-color);
 }
 
 .about p {
@@ -244,7 +256,7 @@ nav .fa-solid {
 .about h3 {
     text-align: left;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--text-color);
     font-size: 1.5rem;
 }
 
@@ -323,7 +335,7 @@ nav .fa-solid {
     font-size: 2rem;
     font-weight: 400;
     text-align: center;
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--text-color);
     padding: 1rem 0rem;
 }
 
@@ -355,7 +367,7 @@ nav .fa-solid {
 
 .fa-briefcase {
     padding-right: 1rem;
-    color: var(--third-bg-color);
+    color: var(--text-color);
 }
 
 /* ------- Footer -----------------*/
