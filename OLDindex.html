@@ -22,8 +22,9 @@
                 <div class="header-name">
                     <a href="index.html">Daniel Cunha Byström</a>
                 </div>
-                <input type="checkbox" id="nav-toggle" class="nav-toggle">
                 <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+
                     <ul>
                         <li>
                             <a href="#about"><span>Home</span></a>
@@ -40,11 +41,9 @@
                         <li>
                             <a href="#"><span>CV</span></a>
                         </li>
-                    </ul> 
+                    </ul>
                 </div>
-                <label for="nav-toggle" class="nav-toggle-label">
-                    <span></span>
-                </label>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
             </div>
         </nav>
 
@@ -188,11 +187,16 @@
     <!---------- JS for menu ---------->
 
     <script>
-        $(document).ready(function(){
-        $(".hamburger").click(function(){
-            $(this).toggleClass("is-active");
-        });
-        });
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu() {
+            navLinks.style.top = "0"
+        }
+
+        function hideMenu() {
+            navLinks.style.top = "-20rem"
+        }
+
     </script>
 
 </body>
