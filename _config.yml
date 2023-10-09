@@ -302,9 +302,6 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
