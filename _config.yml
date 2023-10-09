@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Daniel Cunha Byström"
   avatar           : "profile.png"
-  bio              : "PhD Studente at University of Gothenburg"
+  bio              : "PhD Student at University of Gothenburg"
   location         : 
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           :
+  googlescholar    :
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
