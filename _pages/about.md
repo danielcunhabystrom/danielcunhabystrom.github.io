@@ -17,4 +17,5 @@ Here I will in list my research
 
 ## <a id="contact"></a> Contact
 
-Here I will list my Contact information
+Email: daniel.cunha.bystrom@gu.se
+Location: Gothenburg, Sweden
