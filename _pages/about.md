@@ -1,13 +1,12 @@
 ---
 permalink: /
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-## <a id="aboutme"></a> About me
 
 I am a third-year Ph.D. student in Economics at the University of Gothenburg. I am broadly interested in applied microeconomic topics. My current focus is on the economics of crime, criminal networks, and peer effects.
 
