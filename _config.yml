@@ -84,7 +84,7 @@ author:
   avatar           : "profile.png"
   bio              : "PhD Student at University of Gothenburg"
   location         : 
-  employer         : "<a href = \"https://www.gu.se/om-universitetet/hitta-person/danielcunhabystrom\">GU</a>"
+  employer         : "<a target = \"_blank\" href = \"https://www.gu.se/om-universitetet/hitta-person/danielcunhabystrom\">GU</a>"
   pubmed           :
   googlescholar    :
   email            :
