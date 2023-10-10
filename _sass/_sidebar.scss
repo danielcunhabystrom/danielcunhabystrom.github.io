@@ -194,7 +194,7 @@
     z-index: 0;
 
     @include breakpoint($large) {
-      display: inline-block;
+      display: none;
     }
   }
 
@@ -211,7 +211,7 @@
     z-index: 1;
 
     @include breakpoint($large) {
-      display: none;
+      display: inline-block;
     }
   }
 
