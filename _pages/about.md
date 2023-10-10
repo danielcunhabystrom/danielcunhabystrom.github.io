@@ -16,6 +16,6 @@ I am a third-year Ph.D. student in Economics at the University of Gothenburg. I 
 
 Here I will in list my research
 
-## <a id="Contact"></a> Contact
+## <a id="contact"></a> Contact
 
 Here I will list my Contact information
