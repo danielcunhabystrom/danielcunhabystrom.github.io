@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year Ph.D. student in Economics at the University of Gothenburg. I am broadly interested in applied microeconomic topics. My current focus is on the economics of crime, criminal networks, and peer effects.
+I am a third-year Ph.D. student in Economics at the University of Gothenburg. My research interests lie in the field of applied microeconomics, with a current focus on the economics of crime, criminal networks, and peer effects.
 
 
 ## <a id="research"></a> Research
