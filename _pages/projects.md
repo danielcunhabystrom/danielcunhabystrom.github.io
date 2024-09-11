@@ -3,7 +3,7 @@ layout: page
 title: research
 permalink: /projects/
 description: My research will appear here when it is time.
-nav: true
+nav: false
 nav_order: 2
 display_categories: 
 horizontal: false
