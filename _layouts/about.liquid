@@ -65,7 +65,7 @@ layout: default
     {% endif %}
 
     <!-- Social -->
-    {% commment %}
+    {% comment %}
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
@@ -73,7 +73,7 @@ layout: default
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
-    {% endcommment %}
+    {% endcomment %}
 
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include scripts/newsletter.liquid center=true %}
