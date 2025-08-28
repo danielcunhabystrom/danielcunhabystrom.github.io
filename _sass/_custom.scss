@@ -1,0 +1,22 @@
+/* Smooth scroll for anchor links site-wide */
+html { scroll-behavior: smooth; }
+
+/* Respect reduced-motion settings */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+/* Keep anchored headings from hiding under a fixed header */
+[id] { scroll-margin-top: 6rem; } /* adjust to your header height */
+
+@media (min-width: 1025px) {
+    .large-spacer { margin-top: 35rem; }
+  }
+
+@media (min-width: 1025px) {
+    .small-spacer { margin-top: 6rem; }
+}
+
+@media (min-width: 1025px) {
+    .smallest-spacer { margin-top: 2rem; }
+}

@@ -6,7 +6,7 @@ title: Daniel Cunha Byström # the website title (if blank, full name will be us
 first_name: Daniel
 middle_name:
 last_name: Cunha Byström
-email: daniel.cunha.bystrom@gy.se
+email: daniel.cunha.bystrom@gu.se
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: > #
