@@ -9,6 +9,7 @@ html { scroll-behavior: smooth; }
 /* Keep anchored headings from hiding under a fixed header */
 [id] { scroll-margin-top: 6rem; } /* adjust to your header height */
 
+/* Adjust to screen size */
 @media (min-width: 1025px) {
     .large-spacer { margin-top: 35rem; }
   }
@@ -20,3 +21,4 @@ html { scroll-behavior: smooth; }
 @media (min-width: 1025px) {
     .smallest-spacer { margin-top: 2rem; }
 }
+

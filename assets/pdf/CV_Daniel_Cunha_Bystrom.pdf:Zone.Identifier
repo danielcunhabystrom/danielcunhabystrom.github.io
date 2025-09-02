@@ -1,3 +1,4 @@
 [ZoneTransfer]
 ZoneId=3
-HostUrl=about:internet
+ReferrerUrl=https://sv.overleaf.com/project/6384b56ca403080d1421e346
+HostUrl=https://sv.overleaf.com/download/project/6384b56ca403080d1421e346/build/19909736475-a48e2247fde990e5/output/output.pdf?compileGroup=priority&clsiserverid=clsi-pre-emp-c3d-c-f-tnrr&enable_pdf_caching=true&popupDownload=true
