@@ -14,11 +14,11 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I am a Ph.D. student in Economics at the University of Gothenburg. My research is in applied microeconomics, with interests spanning the economics of crime, labor economics, and public policy. I work with large-scale administrative registers -- including newly linked  data on confirmed gang members -- to study how criminal behavior, labor markets , and social institutions interact.
+I am an applied microeconomist working on the economics of crime, labor economics, and public policy. In the fall of 2026, I will start as a **postdoctoral researcher at the London School of Economics and Political Science** and at the **Swedish Institute for Social Research (SOFI), Stockholm University**. I completed my **PhD in Economics at the University of Gothenburg** in June 2026.
+
+My research uses large-scale administrative registers -- including newly linked data on confirmed gang members -- to study how criminal behavior, labor markets, and social institutions interact.
 
 My current projects examine (i) how family transmission and peer exposure facilitate gang recruitment and the expansion of organized crime groups in Sweden; (ii) how local incarceration rates shape neighborhood crime across subpopulations; and (iii) how gang-related violence influences firms and local economic activity.
-
-**I am on the 2025–26 academic job market.**
 
 <div class="large-spacer" style="clear: both;"></div>
 
